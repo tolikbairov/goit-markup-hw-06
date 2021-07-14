@@ -709,9 +709,9 @@ textarea {
   top: 8px;
   right: 8px;
   /* transform: translate(-50%, -50%); */
-  display: flex;
+  /*   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 
   width: 30px;
   height: 30px;
@@ -727,6 +727,10 @@ textarea {
   cursor: pointer;
 }
 .modal-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 11px;
   height: 11px;
   fill: #000000;
